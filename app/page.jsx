@@ -7,15 +7,28 @@ export default function Home() {
     <main>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow">The Pangasinan Heritage Digital Showcase</span>
-          <h1>Discover the stories, places, and culture of Pangasinan.</h1>
+          <span className="eyebrow">
+            The Pangasinan Heritage Digital Showcase
+          </span>
+
+          <h1>
+            Discover the stories, places, and culture of Pangasinan.
+          </h1>
+
           <p>
             A lightweight, mobile-first tourism showcase designed to make
             heritage information easy to explore—even on limited mobile data.
           </p>
+
           <div className="actions">
-            <Button href="/heritage">Explore Heritage</Button>
-            <Button href="/about" variant="secondary">
+            <Button href="/Activity-1.1-Taluban-Haider/heritage">
+              Explore Heritage
+            </Button>
+
+            <Button
+              href="/Activity-1.1-Taluban-Haider/about"
+              variant="secondary"
+            >
               About the Project
             </Button>
           </div>
@@ -25,9 +38,12 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <h2>Featured Heritage Sites</h2>
+
           <p className="section-intro">
-            Explore selected destinations and cultural landmarks across Pangasinan.
+            Explore selected destinations and cultural landmarks across
+            Pangasinan.
           </p>
+
           <HeritageGrid sites={sites.slice(0, 3)} />
         </div>
       </section>
@@ -38,9 +54,11 @@ export default function Home() {
             <div className="info">
               <h3>Mobile-First</h3>
               <p>
-                Responsive layouts prioritize smartphone users and adapt to larger screens.
+                Responsive layouts prioritize smartphone users and adapt to
+                larger screens.
               </p>
             </div>
+
             <div className="info">
               <h3>Accessible</h3>
               <p>
@@ -48,6 +66,7 @@ export default function Home() {
                 descriptive image alternatives support inclusive use.
               </p>
             </div>
+
             <div className="info">
               <h3>Lightweight</h3>
               <p>

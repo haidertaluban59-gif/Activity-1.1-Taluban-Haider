@@ -13,7 +13,11 @@ export default function HeaderNavigation() {
   return (
     <header className="header">
       <div className="container header-inner">
-        <a className="brand" href="/">
+
+        <a
+          className="brand"
+          href="/Activity-1.1-Taluban-Haider/"
+        >
           Pangasinan Heritage
         </a>
 
@@ -31,18 +35,35 @@ export default function HeaderNavigation() {
           className={`nav ${open ? 'open' : ''}`}
           aria-label="Main navigation"
         >
-          <NavigationItem href="/" onClick={closeMenu}>
+
+          <NavigationItem
+            href="/Activity-1.1-Taluban-Haider/"
+            onClick={closeMenu}
+          >
             Home
           </NavigationItem>
-          <NavigationItem href="/heritage" onClick={closeMenu}>
+
+          <NavigationItem
+            href="/Activity-1.1-Taluban-Haider/heritage"
+            onClick={closeMenu}
+          >
             Heritage Sites
           </NavigationItem>
-          <NavigationItem href="/about" onClick={closeMenu}>
+
+          <NavigationItem
+            href="/Activity-1.1-Taluban-Haider/about"
+            onClick={closeMenu}
+          >
             About
           </NavigationItem>
-          <NavigationItem href="/contact" onClick={closeMenu}>
+
+          <NavigationItem
+            href="/Activity-1.1-Taluban-Haider/contact"
+            onClick={closeMenu}
+          >
             Contact
           </NavigationItem>
+
         </nav>
       </div>
     </header>
